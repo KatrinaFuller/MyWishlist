@@ -37,8 +37,10 @@ server.use('/account', new AuthController().router)
 
 //YOUR ROUTES HERE!!!!!!
 import HomeController from './controllers/HomeController'
+import ItemController from './controllers/ItemController'
 
 server.use('/api/home', new HomeController().router)
+server.use('/api/items', new ItemController().router)
 
 
 //Default Error Handler
