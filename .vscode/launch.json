@@ -7,8 +7,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "nodemon",
-            "runtimeExecutable": "nodemon",
+            // "name": "nodemon",
+            // "runtimeExecutable": "nodemon",
             "program": "${workspaceFolder}/index.js",
             "restart": true,
             "console": "integratedTerminal",
