@@ -9,6 +9,9 @@ mongoose.connection.on('error', err => {
 })
 
 
+const connectionString = "mongodb+srv://KatrinaFuller:BCWPurple1@mywishlist-v8lsz.mongodb.net/MyWishlist?retryWrites=true&w=majority"
+
+
 export default class DbContext {
   static async connect() {
     try {
